@@ -54,6 +54,7 @@ radio.setGroup(7)
 ## Step 8 
 Now instead of showing the ``||gatorMicrophone: sound||`` value on the micro:bit, ``||radio:send||`` over the radio instead.
 ```blocks
+radio.setGroup(7)
 basic.forever(function () {
     radio.sendNumber(Math.round(gatorMicrophone.getSoundIntensity()))
     basic.pause(5000)
