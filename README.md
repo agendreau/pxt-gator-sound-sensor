@@ -1,4 +1,6 @@
-# Challenge
+# Sound Sensor Data
+
+## Introduction 
 Sound Sensor Data Collection Challenge. Continuously collect sound samples every 5 seconds and display them using the lights on the micro:bit. 
 
 ## Step 1
@@ -39,7 +41,7 @@ basic.forever(function () {
 ```
 
 ## Step 6
-|Download| it and test it out. Once you have it working, click NEXT to move on to the next challenge
+``|Download|`` it and test it out. Once you have it working, click NEXT to move on to the next challenge
 
 ## Step 7
 Now you will use the ``||radio: radio||`` to transfer data collected using the micro:bit to the chromebook. The radio channel is labeled on your receiver micro:bit box. Set the data collecting micro:bit to the same group as the data receiving micro:bit.
@@ -59,7 +61,7 @@ basic.forever(function () {
 ```
 
 ## Step 9
-|Download| the code and try it out. 
+``|Download|`` the code and try it out. 
 
 ```package
 gatorMicrophone=github:sparkfun/pxt-gator-microphone#v1.0.20
