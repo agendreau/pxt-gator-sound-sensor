@@ -11,7 +11,7 @@ basic.forever(function () {
 ```
 
 ## Step 2
-What ``||gatorSound: number||`` do we want to be showing?  
+What ``||gatorMicrophone: number||`` do we want to be showing?  
 
 ```blocks
 basic.forever(function () {
@@ -20,7 +20,7 @@ basic.forever(function () {
 ```
 
 ## Step 3
-We do not want a long list after the decimal point, so we ``||math: round||`` the ``||gatorSound: sound||`` to the closest whole number.
+We do not want a long list after the decimal point, so we ``||math: round||`` the ``||gatorMicrophone: sound||`` to the closest whole number.
 
 ```blocks
 basic.forever(function () {
@@ -50,7 +50,7 @@ radio.setGroup(7)
 ```
 
 ## Step 8 
-Now instead of showing the ``||gatorSound: sound||`` value on the micro:bit, ``||radio:send||`` over the radio instead.
+Now instead of showing the ``||gatorMicrophone: sound||`` value on the micro:bit, ``||radio:send||`` over the radio instead.
 ```blocks
 basic.forever(function () {
     radio.sendNumber(Math.round(gatorMicrophone.getSoundIntensity()))
