@@ -61,7 +61,7 @@ basic.forever(function () {
 ```
 
 ## Step 9
-``|Download|`` the code and try it out. 
+``|Download|`` the code and test it out. 
 
 ```package
 gatorMicrophone=github:sparkfun/pxt-gator-microphone#v1.0.20
